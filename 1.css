@@ -1,0 +1,32 @@
+#calc{
+  border: 2px solid black;
+  width: 280px;
+  height: 480px;
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  color: #ffff;
+  background-color: rgb(247, 14, 14);
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: rgb(19, 17, 17)}
+
+.button:active {
+  background-color: green;
+  box-shadow: black;
+  transform: translateY(4px);
+}
+input[type=text] {
+  border: 5px solid rgb(119, 109, 109);
+  border-radius: 5px;
+  width:280px;
+  height:50px;
+  display: flexbox;
+}
